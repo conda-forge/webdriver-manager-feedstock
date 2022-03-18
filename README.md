@@ -5,7 +5,7 @@ Home: https://github.com/SergeyPirogov/webdriver_manager
 
 Package license: Apache-2.0
 
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/webdriver-manager-feedstock/blob/master/LICENSE.txt)
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/webdriver-manager-feedstock/blob/main/LICENSE.txt)
 
 Summary: Library provides the way to automatically manage drivers for different browsers
 
@@ -15,8 +15,8 @@ Current build status
 
 <table><tr><td>All platforms:</td>
     <td>
-      <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=13429&branchName=master">
-        <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/webdriver-manager-feedstock?branchName=master">
+      <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=13429&branchName=main">
+        <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/webdriver-manager-feedstock?branchName=main">
       </a>
     </td>
   </tr>
