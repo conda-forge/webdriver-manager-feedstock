@@ -37,7 +37,7 @@ about:
   home: https://github.com/SergeyPirogov/webdriver_manager
   summary: Library provides the way to automatically manage drivers for different browsers
   license: Apache-2.0
-  license_file: LICENSE.txt
+  license_file: LICENSE
 
 extra:
   recipe-maintainers:
