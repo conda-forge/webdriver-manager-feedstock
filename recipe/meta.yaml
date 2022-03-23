@@ -1,5 +1,5 @@
 {% set name = "webdriver-manager" %}
-{% set version = "3.5.3" %}
+{% set version = "3.5.4" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/webdriver_manager-{{ version }}.tar.gz
-  sha256: 33c86736c51839abdcdeed1bbfd1f0d55277411bae4f232fdc9ace0c518e04f4
+  sha256: 2eb7c2fe38ec5b06e2090164923e4dfb7c3ac4e7140333a3de9c7956f5047858
 
 build:
   number: 0
@@ -37,7 +37,7 @@ about:
   home: https://github.com/SergeyPirogov/webdriver_manager
   summary: Library provides the way to automatically manage drivers for different browsers
   license: Apache-2.0
-  license_file: LICENSE.txt
+  license_file: LICENSE
 
 extra:
   recipe-maintainers:
