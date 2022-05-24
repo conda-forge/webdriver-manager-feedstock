@@ -20,9 +20,8 @@ requirements:
     - pip
     - python >=3.6
   run:
-    - configparser
-    - crayons
     - python >=3.6
+    - python-dotenv
     - requests
 
 test:
