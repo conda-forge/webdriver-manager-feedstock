@@ -18,12 +18,12 @@ build:
 requirements:
   host:
     - pip
-    - python >=3.6
+    - python >=3.7
   run:
-    - pybrowsers
     - python >=3.6
     - python-dotenv
     - requests
+    - tqdm
 
 test:
   imports:
