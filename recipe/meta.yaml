@@ -20,7 +20,8 @@ requirements:
     - pip
     - python >=3.7
   run:
-    - python >=3.6
+    - packaging
+    - python >=3.7
     - python-dotenv
     - requests
     - tqdm
