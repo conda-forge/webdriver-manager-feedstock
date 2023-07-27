@@ -1,7 +1,6 @@
 {% set name = "webdriver-manager" %}
 {% set version = "3.9.1" %}
 
-
 package:
   name: {{ name|lower }}
   version: {{ version }}
