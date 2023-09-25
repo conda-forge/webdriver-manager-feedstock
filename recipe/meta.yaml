@@ -1,5 +1,5 @@
 {% set name = "webdriver-manager" %}
-{% set version = "4.0.0" %}
+{% set version = "4.0.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/webdriver_manager-{{ version }}.tar.gz
-  sha256: 2b8d1c2cb590d296ade18bc7bc2589578a868f5587133922d744641f6a757a20
+  sha256: 25ec177c6a2ce9c02fb8046f1b2732701a9418d6a977967bb065d840a3175d87
 
 build:
   number: 0
