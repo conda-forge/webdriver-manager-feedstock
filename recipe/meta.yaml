@@ -6,21 +6,22 @@ package:
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/webdriver_manager-{{ version }}.tar.gz
+  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/webdriver_manager-{{ version }}.tar.gz
   sha256: efedf428f92fd6d5c924a0d054e6d1322dd77aab790e834ee767af392b35590f
 
 build:
-  number: 0
+  number: 1
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv
 
 requirements:
   host:
     - pip
-    - python >=3.7
+    - python {{ python_min }}
+    - setuptools
   run:
     - packaging
-    - python >=3.7
+    - python >={{ python_min }}
     - python-dotenv
     - requests
     - tqdm
@@ -32,6 +33,7 @@ test:
     - pip check
   requires:
     - pip
+    - python {{ python_min }}
 
 about:
   home: https://github.com/SergeyPirogov/webdriver_manager
