@@ -21,13 +21,13 @@ requirements:
   host:
     - pip
     - python ${{ python_min }}.*
-    - setuptools
+    - setuptools >=69
+    - wheel
   run:
-    - packaging
     - python >=${{ python_min }}
-    - python-dotenv
     - requests
-    - tqdm
+    - python-dotenv
+    - packaging
 
 tests:
   - python:
