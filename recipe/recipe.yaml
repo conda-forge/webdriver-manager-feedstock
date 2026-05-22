@@ -2,7 +2,7 @@ schema_version: 1
 
 context:
   name: webdriver-manager
-  version: "4.1.0"
+  version: "4.1.1"
 
 package:
   name: ${{ name|lower }}
@@ -10,7 +10,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/webdriver_manager-${{ version }}.tar.gz
-  sha256: e209637837731b6cd9dccf79784868eedce8c4a35258076762dbe5e7f8d83ba4
+  sha256: 3832f4ab2186c86496b5c0a6d362357a294ca8c2be9972b49d089b809e262687
 
 build:
   number: 0
@@ -21,13 +21,13 @@ requirements:
   host:
     - pip
     - python ${{ python_min }}.*
-    - setuptools
+    - setuptools >=69
+    - wheel
   run:
-    - packaging
     - python >=${{ python_min }}
-    - python-dotenv
     - requests
-    - tqdm
+    - python-dotenv
+    - packaging
 
 tests:
   - python:
