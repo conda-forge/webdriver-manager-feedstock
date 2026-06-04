@@ -2,7 +2,7 @@ schema_version: 1
 
 context:
   name: webdriver-manager
-  version: "4.1.1"
+  version: "4.1.2"
 
 package:
   name: ${{ name|lower }}
@@ -10,7 +10,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/webdriver_manager-${{ version }}.tar.gz
-  sha256: 3832f4ab2186c86496b5c0a6d362357a294ca8c2be9972b49d089b809e262687
+  sha256: 230515ff4dc4c2feff1add25306ca262421b31016d77ded305e8dd921266445f
 
 build:
   number: 0
